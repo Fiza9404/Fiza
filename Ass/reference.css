@@ -1,0 +1,52 @@
+*{  
+    font-family :sans-serif, Tahoma, Geneva, Verdana ;
+    box-sizing :border-box ;
+}
+
+body {
+    background-image: url("pb.jpeg"); /* Use a purple-themed background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#title {
+    font-weight: bold;
+    font-size: xx-medium;
+    color: rgb(254, 253, 255); /* Change text color to white */
+    text-align: center;
+    background-color: #7E57C2; /* Purple color for the title background */
+    background-image: url("pb.jpeg");
+    width: fit-content;
+    border: 15px solid rgb(77, 68, 79);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    #title {
+    border: 15px solid #800080; /* Use a border color that matches the purple theme */
+    box-shadow: 0px 0px 15px rgba(128, 0, 128, 0.2); /* Adjust box-shadow color */
+    }
+    
+}
+
+#important {
+    color: #ffff40; /* Change text color to a lighter shade of purple */
+    font-style: italic;
+    font-weight: bold;
+}
+
+#topcontainer, #container, #bottomContainer {
+    background-color: rgba(103, 58, 183, 0.8); /* Purple color for containers */
+    color: white;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #673AB7; /* Shadow color matching the purple theme */
+}
+
+#center {
+    text-align: center;
+}
+
+#smallPadding {
+    padding: 2px;
+}
